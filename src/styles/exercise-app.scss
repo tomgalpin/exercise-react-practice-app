@@ -1,0 +1,28 @@
+/*
+  EXERCISE-APP
+*/
+
+#exercise_app {
+  /*
+    Make Responsive
+  */
+  padding: 20px;
+  border:  2px solid $dark-blue;
+  border-radius: 10px;
+  height: 500px;
+  min-width: 900px;
+  ol, ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .column_container {
+    height: 100%;
+    @include flex-horizontal;
+  }
+  .column {
+    border: 1px solid $black;
+    padding: 20px 20px 30px 20px;
+    background-color: $light-gray;
+  }
+}

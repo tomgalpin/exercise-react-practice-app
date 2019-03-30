@@ -1,0 +1,13 @@
+/*
+  VIDEO
+*/
+
+.video_container {
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+  border: 2px solid $dark-blue;
+  video {
+    width: 100%;
+  }
+}
