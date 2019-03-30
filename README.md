@@ -2,7 +2,7 @@
 A simple App using React and seed data
 
 ## Deploy
-  - 
+  - https://tomgalpin.github.io/exercise-react-practice-app/
   - From:  https://github.com/gitname/react-gh-pages
 
 ## Areas of Improvement:
