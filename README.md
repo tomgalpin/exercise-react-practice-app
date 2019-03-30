@@ -20,21 +20,20 @@ Your job is to create a single-page application that must provide:
 ## The Data Set
 
 Each hash in the array has the following fields:
-  `id` **REQUIRED** The exercise id
-  `name` **REQUIRED** The name of the exercise
-  `description` A detailed description of the exercise
-  `muscle_groups` Comma-separated list of muscle groups (e.g. `Shoulders,Traps`)
-  `equipment_required` Comma-separated list of equipment required if any (e.g.`Dumbells`)
-  `movement_patterns` The type of movements associated with this (`Lower Pull`)
-  `synonyms` Alternate names for the exercise
-  `side` The side the movement is on if any (i.e. on your `left_leg` or `right_side`)
-  `is_alternating` Boolean value of whether the exercises calls for you to alternate movement (i.e. lift a dumbbell with your left arm, followed by your right arm).
-  `video` Hash of video of movement which contains:
-  `is_flipped` Whether the video needs to be flipped to show the correct side
-  `url` URL of video
-
-  `audio` Hash of audio of movement which contains:
-  `url` URL of name of audio
+  - `id` **REQUIRED** The exercise id
+  - `name` **REQUIRED** The name of the exercise
+  - `description` A detailed description of the exercise
+  - `muscle_groups` Comma-separated list of muscle groups (e.g. `Shoulders,Traps`)
+  - `equipment_required` Comma-separated list of equipment required if any (e.g.`Dumbells`)
+  - `movement_patterns` The type of movements associated with this (`Lower Pull`)
+  - `synonyms` Alternate names for the exercise
+  - `side` The side the movement is on if any (i.e. on your `left_leg` or `right_side`)
+  - `is_alternating` Boolean value of whether the exercises calls for you to alternate movement (i.e. lift a dumbbell with your left arm, followed by your right arm).
+  - `video` Hash of video of movement which contains:
+  - `is_flipped` Whether the video needs to be flipped to show the correct side
+  - `url` URL of video
+  - `audio` Hash of audio of movement which contains:
+  - `url` URL of name of audio
 
 Fields that are not required may contain `null` values.
 
