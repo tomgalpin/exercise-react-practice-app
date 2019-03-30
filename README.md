@@ -1,6 +1,10 @@
 # Tom's Futher React Practice using seed data:
 A simple App using React and seed data
 
+## Deploy
+  - 
+  - From:  https://github.com/gitname/react-gh-pages
+
 ## Areas of Improvement:
 1. Add testing
 2. Make Responsive
